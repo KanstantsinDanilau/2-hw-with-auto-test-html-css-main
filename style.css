@@ -1,82 +1,220 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    height: 100%;
+    font-family: Inter;
+    
+    
+
+}
 
 header {
+    background-color: #2965F1;
+    width: 1440px;
+    height: 70px;
+    padding: 20px 0;
+    color:  #FFFFFF;
     /* Стили для хедера */
 }
 
 header span {
+    width: 146px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    background-color: #FAFAFF;
+    width: 1440px;
+    height: 1024px;
+    min-height: 100vh;
+    padding: 60px 0;
     /* Стили для первой секции */
 }
 
 .main-title {
+    color: #303030;
+    width: 552px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px 0;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    width: 799px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #303030;
+    padding: 20px 0;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    max-width: 715px;
+    width: 715px;
+    height: 508px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+
     /* Стили для второй секции */
 }
 
 select {
+    width: 150px;
+    height: 36px;
+    font-size: 16px;
+    padding: 12px 0 0 0;
+    border-radius: 5px;
+    border: 1px solid;
+    appearance: none;
+    background-image: url(assets/images/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
     /* Стили для выпадающего списка */
 }
 
-.section-title {
+.section-title { 
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+   
+    
+
     /* Стили для заголовков во второй секции */
 }
 
-.frameworks-list {
-    /* Стили для маркированного списка во второй секции */
+.frameworks-list { 
+    padding-left: 20px;
+    width: 80px;
+    height: 57px;
+    font-size: 16px;
+    margin-left: 2.25px;
+    list-style: none;
+    list-style-image: url(assets/images/Vector\ \(2\).svg); 0
+    position: left 0 center;
+    
+ /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    
+
+
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    width: 475px;
+    height: 73px;
+    font-size: 16px;
+    font-weight: 475px;
+    text-align: left;
+    width: 475px;
+    height: 19px; 
+    margin-left: 2.25px;
+    margin-right: 4px;
+
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    width: 330px;
+    height: 36px;
+    font-size: 16px;
+    padding: 9px 215px 8px 12px; 
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #3030304D;
+    
+    color: #30303033;
+
+
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
-    /* Стили для кнопки */
+    width: 125px;
+    height: 36px;
+    top: 1525px;
+    left: 339px;
+    border-radius: 5px;
+    background-color: #2965F1;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+  /* Стили для кнопки */
 }
 
 .line {
+    border: none;
+    border: 1px solid #3030304D;
+    margin-top: 60px;
+    margin-bottom: 60px
+    
     /* Стили для линии */
 }
 
 table {
+    width: 300px; 
+    border-collapse: collapse;
+    border: 1px solid #95A1BB;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    text-align: left;
     /* Стили для таблицы */
 }
 
 th, td {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 11px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    width: 1440px;
+    height: 70px;
+    background-color: #A3A7FF4D;
+    padding-top: 26px;
+    padding-bottom: 27px;
+
+
+
     /* Стили для футера */
 }
 
 .footer-link {
-    /* Стили для футера */
+    text-decoration: none;
+    margin-top: 27px;
+    margin-bottom: 26px;
+    color: #2965F1;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400px;
+
+
+       /* Стили для футера */
 }
+
