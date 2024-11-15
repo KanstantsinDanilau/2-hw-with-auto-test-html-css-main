@@ -8,10 +8,9 @@
 
 body {
     height: 100%;
-    font-family: 'Inter', sans-serif;
-    
-    
-
+    font-family: Inter, sans-serif;
+    color: rgb(48, 48, 48); 
+    background-color: #ffffff;
 }
 
 header {
